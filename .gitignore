@@ -1,0 +1,32 @@
+*.py[co]
+*.egg*
+*.swp
+*~
+*.db
+*.dump
+*.log
+*.csv
+
+# Sphinx docs:
+build
+
+# Coverage tests
+.coverage
+
+# Public asset (static and media) files
+# Those files are either user generated (file uploads) or temporary
+# (generated with collectstatic)
+public/
+
+# Protected and private uploaded files
+# Those files are user generated, but must no be served directly with the
+# web server
+private/
+
+TODO
+
+docs/_build
+
+node_modules
+
+*#
