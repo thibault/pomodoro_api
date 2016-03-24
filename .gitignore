@@ -6,6 +6,7 @@
 *.dump
 *.log
 *.csv
+*.sqlite3
 
 # Sphinx docs:
 build
