@@ -24,6 +24,9 @@ public/
 # web server
 private/
 
+# Production settings
+production.py
+
 TODO
 
 docs/_build
