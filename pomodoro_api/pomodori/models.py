@@ -5,7 +5,7 @@ from django.utils import timezone
 
 
 class Pomodoro(models.Model):
-    author = models.ForeignKey('accounts.User')
+    user = models.ForeignKey('accounts.User')
     started_at = models.DateTimeField(default=timezone.now)
     ended_at = models.DateTimeField(null=True, blank=True)
     interrupted = models.BooleanField(default=False)
